@@ -1,0 +1,64 @@
+[{
+        "id": 1,
+        "title": "dolor",
+        "description": " dolor sit amet, consectetur adipiscing elit. Nulla quis lorem.",
+        "image": "https://source.unsplash.com/random/200x200?sig=1",
+        "price": "100",
+        "created_at": "2020-01-01 00:00:00",
+        "updated_at": "2020-01-01 00:00:00"
+    },
+    {
+        "id": 2,
+        "title": "mobile",
+        "description": " mobile sit amet, consectetur adipiscing elit. Nulla quis lorem.",
+        "image": "https://source.unsplash.com/random/200x200?sig=2",
+        "price": "68.5",
+        "created_at": "2020-01-01 00:00:00",
+        "updated_at": "2020-01-01 00:00:00"
+    },
+    {
+        "id": 3,
+        "title": "computer",
+        "description": " computer sit amet, consectetur adipiscing elit. Nulla quis lorem.",
+        "image": "https://source.unsplash.com/random/200x200?sig=2",
+        "price": "48.5",
+        "created_at": "2020-01-01 00:00:00",
+        "updated_at": "2020-01-01 00:00:00"
+    },
+    {
+        "id": 4,
+        "title": "laptop",
+        "description": " laptop sit amet, consectetur adipiscing elit. Nulla quis lorem.",
+        "image": "https://source.unsplash.com/random/200x200?sig=2",
+        "price": "150",
+        "created_at": "2020-01-01 00:00:00",
+        "updated_at": "2020-01-01 00:00:00"
+    },
+    {
+        "id": 5,
+        "title": "car",
+        "description": " car sit amet, consectetur adipiscing elit. Nulla quis lorem.",
+        "image": "https://source.unsplash.com/random/200x200?sig=2",
+        "price": "200",
+        "created_at": "2020-01-01 00:00:00",
+        "updated_at": "2020-01-01 00:00:00"
+    },
+    {
+        "id": 6,
+        "title": "bike",
+        "description": " bike sit amet, consectetur adipiscing elit. Nulla quis lorem.",
+        "image": "https://source.unsplash.com/random/200x200?sig=2",
+        "price": "30",
+        "created_at": "2020-01-01 00:00:00",
+        "updated_at": "2020-01-01 00:00:00"
+    },
+    {
+        "id": 7,
+        "title": "toy",
+        "description": " toy sit amet, consectetur adipiscing elit. Nulla quis lorem.",
+        "image": "https://source.unsplash.com/random/200x200?sig=2",
+        "price": "8.5",
+        "created_at": "2020-01-01 00:00:00",
+        "updated_at": "2020-01-01 00:00:00"
+    }
+]

@@ -33,7 +33,7 @@
               @click="isOptionsExpanded = !isOptionsExpanded"
               @blur="isOptionsExpanded = false"
             >
-              0 Cart
+              {{cartItemCount}} Cart
               <svg
                 fill="none"
                 viewBox="0 0 24 24"
@@ -114,6 +114,11 @@ export default {
       this.selectedOption = option;
       this.isOptionsExpanded = false;
     },
+  },
+  computed: {
+    cartItemCount() {
+      return this.$store.getters.cartItemCount;
+    }
   },
 };
 </script>

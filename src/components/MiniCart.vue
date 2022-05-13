@@ -1,15 +1,18 @@
 <template>
   <div>
-    <div class="flex justify-between text-black p-4">
-      <h1 class="text-xl">Product Title</h1>
+    <div v-for="item in cart" :key="item.product.id">
+      <div class="flex justify-between text-black p-4">
+      <h1 class="text-xl">{{item.product.title}}</h1>
       <p class="bg-red-500 text-white px-2 rounded-lg">Remove</p>
     </div>
     <div class="flex justify-between text-black p-4">
-      <p class="text-black">1 X $23</p>
+      <p class="text-black">(qty: {{item.quantity}})  (price: ${{item.product.price}})</p>
+    </div>
+    <hr>
     </div>
     <hr />
     <div class="flex justify-between text-black p-4">
-      <h1 class="text-xl">Total: $23</h1>
+      <h1 class="text-xl">Total: ${{cartTotalPrice}}</h1>
       <p class="bg-red-500 text-white px-2 rounded-lg">Clear Cart</p>
     </div>
   </div>
@@ -17,7 +20,18 @@
 
 <script>
 export default {
-    name:'MiniCart'
+    name:'MiniCart',
+    computed: {
+        cart() {
+            return this.$store.state.cart;
+        },
+        cartTotalPrice(){
+          return this.$store.getters.cartTotalPrice;
+        }
+    },
+    mounted(){
+      this.$store.dispatch('getCartItems');
+    }
 };
 </script>
 

@@ -4,7 +4,7 @@
       <app-nav/>
     </div>
     <div class="mt-32">
-      <router-view/>
+      <router-view class="flex flex-wrap"/>
     </div>
   </div>
 </template>
